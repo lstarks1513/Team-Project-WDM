@@ -1,8 +1,8 @@
-# Pram Student Survey Website
+# PVAMU Student Survey Website
 
 ## Project Overview
 
-Welcome to the Pram Student Survey Website! Our project is a survey website designed to facilitate student engagement within the classroom. This platform allows Pram students to answer various types of questions, providing valuable insights and fostering participation within the academic environment.
+Welcome to the PVAMU Student Survey Website! Our project is a survey website designed to facilitate student engagement within the classroom. This platform allows PVAMU students to answer various types of questions, providing valuable insights and fostering participation within the academic environment.
 
 ## Features
 
@@ -16,9 +16,9 @@ Welcome to the Pram Student Survey Website! Our project is a survey website desi
 
 ## Getting Started
 
-To get started with the Pram Student Survey Website, follow these steps:
+To get started with the PVAMU Student Survey Website, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/pram-student-survey.git
+   git clone https://github.com/yourusername/pvamu-student-survey.git
