@@ -46,4 +46,26 @@ body, h1, p {
 	cursor: pointer;
 }
 
-/* Add more styles or overrides as needed */
+/* style to change hyperlink colors*/
+a:link
+{
+	color:lightblue ;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* style to change visited hyperlink colors*/
+a:visited
+{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* style to change hyperlink colorswhen overing the mouse over them*/
+a:hover 
+{
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
