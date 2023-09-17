@@ -69,9 +69,3 @@ a:hover
 	background-color: transparent;
 	text-decoration: underline;
 }
-
-/* style for Image to be stretch horizontally 100 %  */
-img.one {
-	height: 100%;
-	width: 100%;
-  }
