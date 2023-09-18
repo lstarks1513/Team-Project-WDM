@@ -5,5 +5,5 @@ const submitButton = document.getElementById("submitButton");
 submitButton.addEventListener("click", function() {
   // Redirect to a different HTML page when the button is clicked
   console.log("Hit");
-  window.location.href = "Team-Project-WDM/pages/second_page.html";
+  window.location.href = "./pages/second_page.html";
 });
