@@ -5,6 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Page 2</title>
 		<link rel="stylesheet" type="text/css" href="../style/style.css">
+		<style>
+			.columns {
+				column-count: 2;
+			}
+		</style>
 </head>
 
 <body>
@@ -40,8 +45,8 @@ width="10%">
 				
 
 			</table>
-
-			<h4>General information</h4>
+			<div class="columns">
+			<u><h1>General information</h1></u>
 			<h2><u id ="1">Question 1</u></h2>
 					<p>How do you identify your ethnicity or race?</p>
 					
@@ -70,7 +75,6 @@ width="10%">
 
 					<h2><u id ="3">Question 3</u></h2>
 					<p>What is your current marital status?</p>
-					
 					
 				<form>
 				<input type="radio" name="question1" id="question1-Chem.Eng" value="Chemical Engineering">
@@ -127,7 +131,7 @@ width="10%">
 				<input type="text" name="question1" id="question1-other" value="">
 				<label for="question1-other">Other</label>
 				</form>
- 		
+ 		</div>
 		
 		<br>
 		<br>

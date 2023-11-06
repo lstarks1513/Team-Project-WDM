@@ -6,6 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fifth Page</title>
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
+    <style>
+        .columns {
+            column-count: 2;
+        }
+    </style>
 </header>
 <body>
     <font color = #FFCC33>
@@ -38,8 +43,8 @@
                         <td><a href="#5">Questions 20</a></td>
                     </tr>
                 </table>
-
-                <h4>Involvement</h4>
+                <div class="columns">
+                    <u><h1>Involvement</h1></u>
                     <h2><u id ="1">Question 16</u></h2>
 			<p> Have you participated in any alumni-related events or activities organized by your college?</p>
 				
@@ -54,6 +59,8 @@
                     <h2><u id ="2">Question 17</u></h2>
 			<p> What has been your most valuable piece of advice or insight you received?</p>
             <input type="text" name="textbox">
+            <br>
+            <br>
 
                     <h2><u id ="3">Question 18</u></h2>
 			<p> Do you use any online platforms for networking and staying connected to your college? If yes, please describe...</p>
@@ -93,12 +100,13 @@
 				<input type="radio" name="question1" id="question1-Comp.Eng" value="Yes">
 				<label for="question1-No">Rarely</label>
             </form>
+                </div>
             <br>
             <br>
                 <a href="fourth_page.html"><button>Previous</button></a>
                 
                 <a href="last_page.html"><button>Submit</button></a>
         </font>	
-     
+                
 </body>
 </html>
